@@ -1,33 +1,8 @@
-# ChatModelUI
+# Progress
+![Image](https://github.com/user-attachments/assets/f41f8482-4eff-4d2c-bc10-2c22b9075052)
+![Image](https://github.com/user-attachments/assets/a0229e8d-4a98-4da1-b13c-702f65c23ea9)
+![Image](https://github.com/user-attachments/assets/b07fbecf-2edf-499d-8103-986483a81946)
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+-running on local deepseek r1 1.5b
+-layout similar to gpt UI / messenger app
+-return repsonse in reasonal time
