@@ -6,9 +6,11 @@
                 <p>{{ msg.text }}</p>
             </div>
         </main>
+        
         <div ref="promptBox" class="chat-input" :class="{ 'sticky-input': inputSent }">
+            <div class="welcome_intro" v-if="!inputSent">Hello, What can I help you with?</div>
             <textarea class="text-input" v-model="userInput" ref="textArea" @keydown.enter.prevent="handleEnterKey"
-                @input="adjustInputHeight" placeholder="Type a message..." :disabled="isLoading"></textarea>
+                @input="adjustInputHeight" placeholder="Just ask..." :disabled="isLoading"></textarea>
         </div>
     </div>
 </template>
@@ -186,6 +188,11 @@ onMounted(() => {
     resize: vertical;
     max-height: 10vh;
     height: 10vh;
+}
+
+.welcome_intro{
+    text-align: center;
+    font-weight: bold;
 }
 
 /* Disabled input style */
